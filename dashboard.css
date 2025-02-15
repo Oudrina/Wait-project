@@ -1,0 +1,154 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+ cursor: pointer;
+ box-sizing: border-box;
+}
+body{
+ background-color: #faf4f4;
+}
+header{
+ background-color:rgb(222, 232, 244);
+ padding: .5em;
+ width: 100%;
+  position: fixed;
+  /* border: 2px solid blueviolet; */
+}
+.header-container{
+ display: flex;
+ justify-content: space-between;
+ width: 90%;
+ align-content: center;
+ align-items: center;
+  /* border: 1px solid red; */
+ margin: 0 auto;
+}
+nav ul{
+ display: inline-flex;
+ /* border: #797979 2px solid; */
+
+ 
+}
+.header-container li{
+ margin: 0 1em;
+ /* border: 1px solid magenta;  */
+ padding:.3em 1em;
+ border: none;
+}
+.header-container li:hover,
+.header-container li:focus{
+ background-color:rgb(204, 204, 216);
+ transition: ease-in-out;
+ transform: scale(.95);
+}
+
+
+nav li {
+ list-style: none;
+
+}
+
+nav a ,p{
+ text-decoration: none;
+ font-size: .6rem;
+ text-align: center;
+}
+nav a {
+ color:#707070
+}
+ 
+nav i{
+ color:blueviolet;
+}
+
+nav i ,h3{
+ font-size: 1.3rem;
+}
+h3{
+ color:teal;
+ font-weight: 700;
+}
+p{
+ margin-top: -0.8em;
+ color: rgb(170, 55, 35);
+}
+/* ?\sidebar css */
+
+
+ 
+
+  
+.sidebar-nav{
+ position: fixed;
+ right: 0;
+ height: 100%;
+ border-top-left-radius: 1em;
+ border-bottom-left-radius: 1em;
+ background-color: rgb(222, 232, 244);
+ display: flex;
+flex-direction: column;
+/* z-index: 999; */
+}
+ aside{
+  position: relative;
+ }
+ 
+.sidebar-nav ul{
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-content: flex-end;
+ align-items: flex-start;
+ padding: 1em;
+}
+.sidebar-nav li{
+margin: 1em 0;
+ /* border-bottom: 1px solid brown; */
+ padding: .3em;
+}
+.sidebar-nav li:last-child
+{
+ border-bottom: none;
+ margin-bottom: 0;
+}
+
+ .logout{
+  border-bottom: none;
+ }
+   @media (max-width:687px){
+    h3{
+     font-size: .8rem;
+    }
+    .header-nav i {
+     font-size: .5rem;
+    }
+    .header-nav li{
+     margin: 0;
+    }
+     p{
+      font-size: .25rem;
+     }
+    
+   }
+   
+
+ @media(max-width:713px){
+  
+ 
+  .sidebar-nav{
+   display: none;
+  }
+ }
+
+ @media(max-width:950px){
+  nav a{
+   display: none;
+  }
+ }
+
+
+
+
+
+

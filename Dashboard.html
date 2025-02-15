@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ <script src="script.js"></script>
+ <link rel="stylesheet" href="dashboard.css" > 
+ <title>Dashboard</title>
+</head>
+<body>
+
+
+ <header>
+  <div class="header-container">
+   <div>
+    <h3>LOGO</h3>
+     <p>WAIT Project</p>
+    </div >
+
+     <nav class=" header-nav1">
+    <ul class="header-nav">
+     <li ><i class='bx bx-home-alt-2'></i><a href="#">Home </a></li>
+     <li><i class='bx bx-chat'></i><a href="#">feedack</a></li>
+     <li><i class='bx bx-message-square-detail'></i></i><a href="#">view</a></li>
+     <li><i class='bx bx-message-add'></i><a href="#">Add</a></li>
+     <li><i class='bx bx-phone'></i><a href="#">contact us</a></li>
+     <li><i class='bx bx-bell'></i><a href="#">notification</a></li>
+     <li onclick ="openSideBar()"><i class='bx bx-chevron-down'></i></li>
+    </ul>
+
+
+
+
+
+    <ul class="sidebar-nav">
+ 
+     <li onclick="closeSideBar()"><i class='bx bx-chevron-left'></i></li>
+
+     <li><i class='bx bx-user-circle user '></i><a href="#" class="">User</a> </li>
+     <li><i class='bx bx-user'></i><a href="#" class="Rep">Rep</a></li>
+     <li><i class='bx bx-user-plus'></i><a href="#" class="Add-user">Add </a></li>
+     <li><i class='bx bx-user-minus'></i><a href="#" class="Delete-user">Del</a></li>
+     <li><i class='bx bx-folder'></i><a href="#">Inbox</a></li>
+     <li><i class='bx bx-log-out '></i><a href="#" class="logout">logout</a></li>
+     <li><i class='bx bx-cog'><a href="#">settings</a></i></li>
+ 
+    </ul>
+   </nav>
+  </div>  
+
+ </header>
+ 
+ 
+</body>
+</html>
