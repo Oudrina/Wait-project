@@ -9,10 +9,12 @@ body{
  background-color: #f8f9fa;
 }
 header{
- background-color: rgb(65, 236, 65 ,0.7) ;
+ background-color:#fff;
+ box-sizing: 1px 1px 1px rgb(0,0,0,0.1);
  padding: .5em;
  width: 100%;
   position: fixed;
+  z-index: 999;
    /* border: 2px solid blueviolet;  */
 
 }
@@ -39,7 +41,7 @@ nav ul{
 }
 .header-container li:hover,
 .header-container li:focus{
- background-color:tomato;
+ background-color:rgb(142, 232, 104);
  transition: ease-in-out;
  transform: scale(.95);
 }
@@ -86,11 +88,11 @@ p{
  height: 100%;
  border-top-left-radius: 1em;
  border-bottom-left-radius: 1em;
- background-color:rgb(226, 120, 120 ,0.5) ;
+ background-color:rgb(226, 120, 120 ,0.1) ;
  display: flex;
 flex-direction: column;
 padding: 2em;
-backdrop-filter: blur(10px);
+backdrop-filter: blur(50px);
 /* z-index: 999; */
 }
  aside{
