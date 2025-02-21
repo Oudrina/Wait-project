@@ -6,14 +6,15 @@
  box-sizing: border-box;
 }
 body{
- background-color: #faf4f4;
+ background-color: #f8f9fa;
 }
 header{
- background-color:rgb(222, 232, 244);
+ background-color: rgb(65, 236, 65 ,0.7) ;
  padding: .5em;
  width: 100%;
   position: fixed;
-  /* border: 2px solid blueviolet; */
+   /* border: 2px solid blueviolet;  */
+
 }
 .header-container{
  display: flex;
@@ -38,7 +39,7 @@ nav ul{
 }
 .header-container li:hover,
 .header-container li:focus{
- background-color:rgb(204, 204, 216);
+ background-color:tomato;
  transition: ease-in-out;
  transform: scale(.95);
 }
@@ -59,7 +60,7 @@ nav a {
 }
  
 nav i{
- color:blueviolet;
+ color:blue;
 }
 
 nav i ,h3{
@@ -71,7 +72,7 @@ h3{
 }
 p{
  margin-top: -0.8em;
- color: rgb(170, 55, 35);
+ color: tomato;
 }
 /* ?\sidebar css */
 
@@ -85,9 +86,11 @@ p{
  height: 100%;
  border-top-left-radius: 1em;
  border-bottom-left-radius: 1em;
- background-color: rgb(222, 232, 244);
+ background-color:rgb(226, 120, 120 ,0.5) ;
  display: flex;
 flex-direction: column;
+padding: 2em;
+backdrop-filter: blur(10px);
 /* z-index: 999; */
 }
  aside{

@@ -137,7 +137,7 @@ width: 100%;
   font-size: 5rem;
  font-style: normal;
 padding: .2em;
-color: blue;
+color:#0047AB; 
 text-transform: uppercase;
 font-weight: 900;
 
@@ -167,7 +167,7 @@ font-weight: 900;
 .welcome-style a{
 text-decoration: none;
 font-size: 1.2rem;
-color: #6b0606;
+color:#E63946 ;
 font-weight: 600;
 text-transform: uppercase;
 line-height: 1em;
